@@ -1,0 +1,1 @@
+const crypto = require('crypto'); function gen() { return crypto.generateKeyPairSync('rsa', { modulusLength: 2048 }); } module.exports = { gen };
